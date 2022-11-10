@@ -1,0 +1,44 @@
+
+--------virtual invermant creat-------
+
+python -m venv myenv
+
+------virtual invermant activeted----
+
+myenv/Scripts/activate
+
+--------Django Install---------
+
+pip install django
+
+-----------File Create-----------
+
+django-admin startproject first_project
+
+----------Project App Create-----------
+
+python manage.py startapp store
+
+------------Folder Open----------
+
+cd first_project
+
+-----------Project Open----------
+
+python manage.py runserver--------------Always Use--------------------
+
+
+----------------------------------------New    New    New   s-----------------------------------------------------
+
+-------------makemigrations create---------
+
+ python manage.py makemigrations
+
+-----------mygreat--------
+
+python manage.py migrate
+
+--------admin-----------
+
+pytyhon manage.py createsuperuser
+
